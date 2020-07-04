@@ -30,26 +30,30 @@
           <li><a href="" class="nav-link">Контакти</a></li>
         </ul>
         <!--Зворотній звязок-->
-        <div class="link-contacts-conteiner">
-          <a class="link-contacts" href="info@devstudio.com"
-            ><img
-              src="./img/envelope.svg"
-              alt="іконка конверту"
-            />info@devstudio.com</a
-          >
-          <a class="link-contacts" href="+380961111111"
-            ><img
-              src="./img/vector.svg"
-              alt="іконка телефону"
-            />+380961111111</a
-          >
-        </div>
+        <ul class="link-contacts-conteiner">
+          <li>
+            <a class="link-contacts" href="info@devstudio.com"
+              ><img
+                src="./img/envelope.svg"
+                alt="іконка конверту"
+              /> info@devstudio.com</a
+            >
+          </li>
+          <li>
+            <a class="link-contacts" href="+380961111111"
+              ><img
+                src="./img/vector.svg"
+                alt="іконка телефону"
+              /> +38 096 111 11 11</a
+            >
+          </li>
+        </ul>
       </nav>
 
       <!--Заголовок-->
       <div class="blok-title">
         <h1 class="hero-title">ЕФЕКТИВНІ РІШЕННЯ<br />ДЛЯ ВАШОГО БІЗНЕСУ</h1>
-        <a class="button-primary" href="">Замовити послугу</a>
+        <a class="button-primary" href=""> <centr> Замовити послугу</centr></a>
       </div>
 
       <!--Переваги-->
@@ -110,7 +114,7 @@
       <!--Секція чим ми займаємось-->
       <section class="whatwedo-conteiner">
         <h2 class="section-title">Чим ми займаємось</h2>
-        <ul>
+        <ul class="list-item-whatwedo">
           <li>
             <img
               src="./img/img1.jpg"
@@ -145,9 +149,9 @@
       <section class="ourteam-backgr">
         <div class="ourteam-conteiner">
           <h2 class="section-title">Наша команда</h2>
-          <ul>
+          <ul class="ourteam-list">
             <li>
-              <div>
+              <div class="member-team-conteiner">
                 <img
                   src="./img/img4.jpg"
                   alt="фото учасника команди"
@@ -156,7 +160,7 @@
                 />
                 <p class="name" lang="en">Martin Doe</p>
                 <p class="profession" lang="en">UI Designer</p>
-                <ul>
+                <ul class="list-icon">
                   <li>
                     <a href=""
                       ><img src="./img/ellipse1.svg" alt="іконка інстаграм"
@@ -181,7 +185,7 @@
               </div>
             </li>
             <li>
-              <div>
+              <div class="member-team-conteiner">
                 <img
                   src="./img/img5.jpg"
                   alt="фото учасника команди"
@@ -190,7 +194,7 @@
                 />
                 <p class="name" lang="en">Robert Jakis</p>
                 <p class="profession" lang="en">Marketing</p>
-                <ul>
+                <ul class="list-icon">
                   <li>
                     <a href=""
                       ><img src="./img/ellipse1.svg" alt="іконка інстаграм"
@@ -215,7 +219,7 @@
               </div>
             </li>
             <li>
-              <div>
+              <div class="member-team-conteiner">
                 <img
                   src="./img/img6.jpg"
                   alt="фото учасника команди"
@@ -224,7 +228,7 @@
                 />
                 <p class="name" lang="en">Marta Stewart</p>
                 <p class="profession" lang="en">Frontend Developer</p>
-                <ul>
+                <ul class="list-icon">
                   <li>
                     <a href=""
                       ><img src="./img/ellipse1.svg" alt="іконка інстаграм"
@@ -249,7 +253,7 @@
               </div>
             </li>
             <li>
-              <div>
+              <div class="member-team-conteiner">
                 <img
                   src="./img/img7.jpg"
                   alt="фото учасника команди"
@@ -258,7 +262,7 @@
                 />
                 <p class="name" lang="en">John Smith</p>
                 <p class="profession" lang="en">Product Designer</p>
-                <ul>
+                <ul class="list-icon"
                   <li>
                     <a href=""
                       ><img src="./img/ellipse1.svg" alt="іконка інстаграм"
@@ -289,7 +293,7 @@
       <!--Секція постійні клієнти-->
       <section class="customers-conteiner">
         <h2 class="section-title">Постійні клієнти</h2>
-        <ul>
+        <ul class="customers-list">
           <li>
             <img src="./img/сlient6.svg" alt="лого компанії" />
           </li>
@@ -315,36 +319,40 @@
     <!--Підвал-->
     <footer class="footer">
       <div class="footer-conteiner">
+        <div>
         <div class="logo-footer">
           <span class="logo-web">Web</span
           ><span class="logo-studio"> Studio</span>
         </div>
         <!--Контакти-->
         <address class="address">м.Київ, пр-т Лесі Українки, 26</address>
-        <address>
+        <div class="footer-contacts">
           <a class="info" href="info@exemple.com">info@exemple.com</a>
-          <a class="info" href="+380991111111">+380991111111</a>
-        </address>
+        </div>
+        <div class="footer-contacts">
+          <a class="info" href="+380991111111">+38 099 111 11 11</a>
+        </div>
+        </div>
         <!--Соціалні сторінки-->
-        <div>
+        <div class="appeals-box">
           <span class="appeals">ПРИЄДНУЙТЕСЬ</span>
-          <ul>
-            <li>
+          <ul class="footer-icon">
+            <li class="icon-list">
               <a href=""
                 ><img src="./img/ellipse5.svg" alt="іконка інстаграм"
               /></a>
             </li>
-            <li>
+            <li class="icon-list">
               <a href=""
                 ><img src="./img/ellipse6.svg" alt="іконка твіттер"
               /></a>
             </li>
-            <li>
+            <li class="icon-list">
               <a href=""
                 ><img src="./img/ellipse7.svg" alt="іконка фейсбук"
               /></a>
             </li>
-            <li>
+            <li class="icon-list">
               <a href=""
                 ><img src="./img/ellipse8.svg" alt="іконка лінкедін"
               /></a>
@@ -352,9 +360,9 @@
           </ul>
         </div>
         <!--Розсилка-->
-        <div>
+        <div class="appeals-section">
           <span class="appeals">ПІДПИШІТЬСЯ НА РОЗСИЛКУ</span>
-          <form>
+          <form class="input-section">
             <input
               class="mail-input"
               type="email"
@@ -368,9 +376,9 @@
               value="Підписатись"
             />
           </form>
-          <p class="developers" lang="en">2020 | Developed by GoIT Students</p>
         </div>
       </div>
+      <p class="developers" lang="en">2020 | Developed by GoIT Students</p>
     </footer>
   </body>
 </html>

@@ -21,24 +21,23 @@
     <header>
       <!--Головна навігація-->
       <nav class="top-line">
-        <a href="/" class="web-studio"
-          ><span class="web">Web</span><span class="studio"> Studio</span></a
-        >
+        <a href="/" class="web-studio"><span class="web">Web</span><span class="studio"> Studio</span></a>
         <ul class="list">
           <li><a href="./index.html" class="nav-link">Студія</a></li>
           <li><a href="./portfolio.html" class="nav-link">Портфоліо</a></li>
           <li><a href="" class="nav-link">Контакти</a></li>
         </ul>
         <!--Зворотній звязок-->
-        <a class="link-contacts" href="info@devstudio.com"
-          ><img
-            src="./img/envelope.svg"
-            alt="іконка конверту"
-          />info@devstudio.com</a
-        >
-        <a class="link-contacts" href="+380961111111"
-          ><img src="./img/vector.svg" alt="іконка телефону" />+380961111111</a
-        >
+        <ul class="link-contacts-conteiner">
+          <li>
+            <a class="link-contacts" href="info@devstudio.com"><img src="./img/envelope.svg"
+                alt="іконка конверту" /> info@devstudio.com</a>
+          </li>
+          <li>
+            <a class="link-contacts" href="+380961111111"><img src="./img/vector.svg" alt="іконка телефону" /> +38 096 111 11
+              11</a>
+          </li>
+        </ul>
       </nav>
     </header>
 
@@ -196,54 +195,48 @@
 
     <!--Підвал-->
     <footer class="footer">
-      <span class="logo-web">Web</span><span class="logo-studio"> Studio</span>
-      <!--Контакти-->
-      <address class="address">м.Київ, пр-т Лесі Українки, 26</address>
-      <address>
-        <a class="info" href="info@exemple.com">info@exemple.com</a>
-        <a class="info" href="+380991111111">+380991111111</a>
-      </address>
-      <!--Соціалні сторінки-->
-      <div>
-        <span class="appeals">ПРИЄДНУЙТЕСЬ</span>
-        <ul>
-          <li>
-            <a href=""
-              ><img src="./img/ellipse5.svg" alt="іконка інстаграм"
-            /></a>
-          </li>
-          <li>
-            <a href=""><img src="./img/ellipse6.svg" alt="іконка твіттер" /></a>
-          </li>
-          <li>
-            <a href=""><img src="./img/ellipse7.svg" alt="іконка фейсбук" /></a>
-          </li>
-          <li>
-            <a href=""
-              ><img src="./img/ellipse8.svg" alt="іконка лінкедін"
-            /></a>
-          </li>
-        </ul>
+      <div class="footer-conteiner">
+        <div>
+          <div class="logo-footer">
+            <span class="logo-web">Web</span><span class="logo-studio"> Studio</span>
+          </div>
+          <!--Контакти-->
+          <address class="address">м.Київ, пр-т Лесі Українки, 26</address>
+          <div class="footer-contacts">
+            <a class="info" href="info@exemple.com">info@exemple.com</a>
+          </div>
+          <div class="footer-contacts">
+            <a class="info" href="+380991111111">+38 099 111 11 11</a>
+          </div>
+        </div>
+        <!--Соціалні сторінки-->
+        <div class="appeals-box">
+          <span class="appeals">ПРИЄДНУЙТЕСЬ</span>
+          <ul class="footer-icon">
+            <li class="icon-list">
+              <a href=""><img src="./img/ellipse5.svg" alt="іконка інстаграм" /></a>
+            </li>
+            <li class="icon-list">
+              <a href=""><img src="./img/ellipse6.svg" alt="іконка твіттер" /></a>
+            </li>
+            <li class="icon-list">
+              <a href=""><img src="./img/ellipse7.svg" alt="іконка фейсбук" /></a>
+            </li>
+            <li class="icon-list">
+              <a href=""><img src="./img/ellipse8.svg" alt="іконка лінкедін" /></a>
+            </li>
+          </ul>
+        </div>
+        <!--Розсилка-->
+        <div class="appeals-section">
+          <span class="appeals">ПІДПИШІТЬСЯ НА РОЗСИЛКУ</span>
+          <form class="input-section">
+            <input class="mail-input" type="email" value="E-mail" placeholder="E-mail" />
+            <input class="button-primary" type="submit" name="submit" value="Підписатись" />
+          </form>
+        </div>
       </div>
-      <!--Розсилка-->
-      <div>
-        <span class="appeals">ПІДПИШІТЬСЯ НА РОЗСИЛКУ</span>
-        <form>
-          <input
-            class="mail-input"
-            type="email"
-            value="E-mail"
-            placeholder="E-mail"
-          />
-          <input
-            class="button-primary"
-            type="submit"
-            name="submit"
-            value="Підписатись"
-          />
-        </form>
-        <p class="developers" lang="en">2020 | Developed by GoIT Students</p>
-      </div>
+      <p class="developers" lang="en">2020 | Developed by GoIT Students</p>
     </footer>
   </body>
 </html>

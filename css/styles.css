@@ -168,13 +168,22 @@ a {
   text-decoration: none;
 }
 
-.list-benefits {
+.benefits {
   width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
   margin: 94px auto 0px auto;
   display: flex;
   justify-content: space-between;
+}
+
+.benefit {
+  width: 270px;
+  margin-right: 30px;
+}
+
+.benefit:last-of-type {
+  margin-right: 0px;
 }
 
 .pic-feature-wrap {
@@ -234,6 +243,15 @@ a {
   text-align: center;
 }
 
+.item-whatwedo {
+  width: 370px;
+  margin-right: 30px;
+}
+
+.item-whatwedo:last-of-type {
+  margin-right: 0px;
+}
+
 .section-text {
   font-family: Roboto;
   font-style: normal;
@@ -243,14 +261,13 @@ a {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--hero--text-color);
-  text-align: center;
-  line-height: center;
-  width: 370px;
   height: 70px;
   background: var(--blok-title);
   border-radius: 0px 0px 4px 4px;
-  display: table-cell;
-  vertical-align: middle;
+  margin-right: 0px;
+  text-align: center;
+  padding-top: 27px;
+  margin-top: 0px;
 }
 
 /*Our Team*/
@@ -287,6 +304,7 @@ a {
   box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 1px 3px rgba(0, 0, 0, 0.12);
   border-radius: 4px;
+  width: 270px;
 }
 
 .name {
@@ -324,6 +342,15 @@ a {
   display: flex;
   justify-content: space-between;
   padding: 0;
+}
+
+.customers {
+  width: 170px;
+  margin-right: 30px;
+}
+
+.customers:last-of-type {
+  margin-right: 0;
 }
 
 /*Footer*/
@@ -485,7 +512,6 @@ a {
   letter-spacing: 0.06em;
   color: var(--primary-text-color);
   padding-top: 20px;
-  padding-bottom: 4px;
   padding-left: 24px;
   margin: 0;
 }
@@ -498,7 +524,6 @@ a {
   line-height: 30px;
   letter-spacing: 0.03em;
   color: var(--text-color);
-  padding-bottom: 20px;
   padding-left: 24px;
   margin: 0;
 }
@@ -542,12 +567,15 @@ a {
 }
 
 .project {
-  display: inline-block;
   width: 370px;
   height: 404px;
-  margin-bottom: 30px;
   background: #ffffff;
   border: 1px solid #eeeeee;
   box-sizing: border-box;
   border-radius: 5px;
+  margin: 0px 30px 30px 0px;
+}
+
+.project:nth-child(3n + 3) {
+  margin-right: 0px;
 }
